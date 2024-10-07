@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-color: rgba(84, 84, 219, 0.875); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    margin-top: 5rem;
+    margin-right: 2rem;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    box-shadow: 0px 0px 3px;
+    border-radius: 7px;
+}
+
+.container1{
+    margin-top: 5rem;
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    box-shadow: 0px 0px 3px;
+    border-radius: 7px;
+}
+
+.container h2{
+    margin-left: 5rem;
+}
+
+.container1 h2{
+    margin-left: 5rem;
+}
+
+.email{
+    padding: 7px;
+    width: 250px;
+}
+
+a{
+    color: rgb(0, 140, 255);
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.forgot{
+    margin-left: 4rem;
+}
+
+.login{
+    padding: 7px;
+    width: 250px;
+    background-color: rgba(79, 124, 221, 0.948);
+    color: white;
+    border: 1px;
+    border-radius: 3px;
+    
+}
+
+p{
+    margin-left: 1.8rem;
+    font-size: small;
+}
+
+.facebook{
+    padding: 7px;
+    width: 250px;
+    background-color: rgba(90, 154, 219, 0.867);
+    color: white;
+    border-radius: 3px;
+    border: 1px;
+    position: relative;
+}
+
+.google{
+    padding: 7px;
+    width: 250px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    position: relative;
+}
+
+.fa-facebook{
+
+    position: absolute;
+    left: 20px;
+    font-size: 18px;
+}
+
+.fa-google{
+    position: absolute;
+    left: 20px;
+    font-size: 18px;
+}
+
